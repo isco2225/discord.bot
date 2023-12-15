@@ -28,7 +28,7 @@ async def on_message(message):
         # Rastgele bir İngilizce kelime seç
         random_english_word = random.choice(list(learnEnglish.keys()))
         await message.channel.send(f"İngilizce kelimen: {''.join(random_english_word)}")
-#2225
+#222
         def check(m):
             # Doğru cevabın kontrolü
             return m.author != bot.user and m.channel == message.channel and m.content.lower() in learnEnglish[
