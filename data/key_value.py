@@ -7,7 +7,7 @@ responses = {
 }
 #bu listelerin seviyesi olacak (kolay-orta-zor-çok zor).
 learnEnglish = {
-    'hi': ['merhaba', 'selam', 'merhabalar', 'selamlar', 'naber'],
+    'hii': ['merhaba', 'selam', 'merhabalar', 'selamlar', 'naber'],
     'what are you doing': ['ne yapıyorsun', 'nelerle meşgulsün', 'hangi işle meşgulsün', 'şu an ne işle uğraşıyorsun',
                            'meşgul olduğun konu nedir'],
     'how are you': ['nasılsın', 'naber', 'iyi misin', 'sana ne var', 'ruh halin nasıl'],
