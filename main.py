@@ -1,10 +1,11 @@
 import discord
-from discord.ext import commands
 import random
+from discord.ext import commands
 from data.culture_data import cultures
 from data.joke_data import jokes
 from data.key_value import responses
 from data.key_value import learnEnglish
+
 #bu listelerin seviyesi olacak (kolay-orta-zor-çok zor).
 #github ortak proje oluşturulacak.
 #ses kanallarında ses kullanabilme kullanıcı ses odasına girdiğinde bot gelir ve ona bir şeyler söyler ve çıkar.
