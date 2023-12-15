@@ -4,7 +4,7 @@ cultures = [
     "Dünya üzerinde kaç tane kıta bulunmaktadır? - 7",
     "En çok konuşulan dil hangisidir? - Mandarin Çincesi",
     "Einstein'ın ünlü denklemi nedir? - E=mc^2",
-    "Dünya üzerindeki en yüksek dağ nedir? - Everest",
+    "Dünya üzerindeki en yüksek dağ nedir? - EvereSt",
     "Mona Lisa tablosunun ressamı kimdir? - Leonardo da Vinci",
     "Gökyüzündeki en parlak yıldız nedir? - Güneş",
     "İnsan beyninde kaç lob bulunmaktadır? - 4",
