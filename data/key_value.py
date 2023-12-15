@@ -6,7 +6,7 @@ responses = {
     'ben de iyiyim': ['Çok sevindim hep iyi ol']
 }
 #bu listelerin seviyesi olacak (kolay-orta-zor-çok zor).
-learnEnglish = {
+learnEnglish_a1 = {
     'hii': ['merhaba', 'selam', 'merhabalar', 'selamlar', 'naber'],
     'what are you doing': ['ne yapıyorsun', 'nelerle meşgulsün', 'hangi işle meşgulsün', 'şu an ne işle uğraşıyorsun',
                            'meşgul olduğun konu nedir'],
@@ -131,5 +131,14 @@ learnEnglish = {
                                                   'hangi destinasyonları tercih edersin',
                                                   'tatilde yapmayı sevdiğin şeyler nelerdir', 'gezgin bir ruhun var mı',
                                                   'en güzel tatil anın nedir']
+
+}
+learnEnglish_a2 = {
+
+}
+learnEnglish_b1 = {
+
+}
+learnEnglish_b2 = {
 
 }
