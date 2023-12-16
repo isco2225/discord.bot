@@ -14,8 +14,11 @@ token = 'MTE4MzQwNTU4ODYxNzYyNTY0MQ.GnExYB.xXJgOoOMbz15cM3VtABWg1BP7OnR-Dqot6uhu
 async def on_ready():
     print(f'hazırız şefim {bot.user}')
 
+english_quiz_active = False
+
 @bot.event
 async def on_message(message):
+    global english_quiz_active
     # bot kendi mesajlarını dikkate almaz.
     if message.author == bot.user:
         return
@@ -29,7 +32,15 @@ async def on_message(message):
                                 ('!ingilizce b1', learnEnglish_b1),
                                 ('!ingilizce b2', learnEnglish_b2)]:
         if content_lower.startswith(keyword):
-            await check_user_response(bot, message, learn_dict)
+            if english_quiz_active:
+                if learn_dict == learnEnglish_a1 or learn_dict == learnEnglish_a2:
+                    await message.channel.send("Önce yazdığım cümleyi bil adamı hasta etme.")
+                elif learn_dict == learnEnglish_b1 or learn_dict == learnEnglish_b2:
+                    await message.channel.send("Translate the sentence first please.")
+            else:
+                # Yarışma başlat
+                english_quiz_active = True
+                await check_user_response(bot, message, learn_dict)
             return
 
     for keyword, responses_list in responses.items():
@@ -49,8 +60,12 @@ async def on_message(message):
     await bot.process_commands(message)
 
 async def check_user_response(bot, message, learn_dict):
+    global english_quiz_active
     random_english_word, correct_answer = get_random_word(learn_dict)
-    await message.channel.send(f"İngilizce kelimen: {''.join(random_english_word)}")
+    if learn_dict == learnEnglish_a1 or learn_dict == learnEnglish_a2:
+        await message.channel.send(f"İngilizce kelimen: {''.join(random_english_word)}")
+    if learn_dict == learnEnglish_b1 or learn_dict == learnEnglish_b2:
+        await message.channel.send(f"English sentence: {''.join(random_english_word)}")
 
     def check(m):
 
@@ -60,10 +75,18 @@ async def check_user_response(bot, message, learn_dict):
 
     try:
         user_response = await bot.wait_for('message', check=check, timeout=15)
-
-        await message.channel.send(f"Aferin lan {user_response.author.mention}, doğru cevap.")
+        if learn_dict == learnEnglish_a1 or learn_dict == learnEnglish_a2:
+            await message.channel.send(f"Aferin lan {user_response.author.mention}, doğru cevap.")
+        if learn_dict == learnEnglish_b1 or learn_dict == learnEnglish_b2:
+            await message.channel.send(f"Good job {user_response.author.mention}, congratulations.")
     except TimeoutError:
-        await message.channel.send(f"Üzgünüm, zaman doldu. Doğru cevap: {''.join(correct_answer[0])}")
+        if learn_dict == learnEnglish_a1 or learn_dict == learnEnglish_a2:
+            await message.channel.send(f"Üzgünüm, zaman doldu. Doğru cevap: {''.join(correct_answer[0])}")
+        if learn_dict == learnEnglish_b1 or learn_dict == learnEnglish_b2:
+            await message.channel.send(f"Sorry time is out. Translation is: {''.join(correct_answer[0])}")
+    finally:
+        # Yarışma bittiğinde durumu sıfırla
+        english_quiz_active = False
 
 def get_random_word(learn_dict):
     random_word = random.choice(list(learn_dict.keys()))
