@@ -1,6 +1,8 @@
 import discord
 import random
 from discord.ext import commands
+
+from data.adjective_data import good_adjecrives, bad_adjecrives
 from data.culture_data import cultures
 from data.joke_data import jokes
 from data.key_value import responses
@@ -34,7 +36,7 @@ async def on_message(message):
         if content_lower.startswith(keyword):
             if english_quiz_active:
                 if learn_dict == learnEnglish_a1 or learn_dict == learnEnglish_a2:
-                    await message.channel.send("Önce yazdığım cümleyi bil adamı hasta etme.")
+                    await message.channel.send(f"Önce yazdığım cümleyi bil {random.choice(bad_adjecrives)}, adamı hasta etme.")
                 elif learn_dict == learnEnglish_b1 or learn_dict == learnEnglish_b2:
                     await message.channel.send("Translate the sentence first please.")
             else:
@@ -74,14 +76,14 @@ async def check_user_response(bot, message, learn_dict):
 
 
     try:
-        user_response = await bot.wait_for('message', check=check, timeout=15)
+        user_response = await bot.wait_for('message', check=check, timeout=3)
         if learn_dict == learnEnglish_a1 or learn_dict == learnEnglish_a2:
             await message.channel.send(f"Aferin lan {user_response.author.mention}, doğru cevap.")
         if learn_dict == learnEnglish_b1 or learn_dict == learnEnglish_b2:
             await message.channel.send(f"Good job {user_response.author.mention}, congratulations.")
     except TimeoutError:
         if learn_dict == learnEnglish_a1 or learn_dict == learnEnglish_a2:
-            await message.channel.send(f"Üzgünüm, zaman doldu. Doğru cevap: {''.join(correct_answer[0])}")
+            await message.channel.send(f"Üzgünüm {random.choice(good_adjecrives)}, zaman doldu. Doğru cevap: {''.join(correct_answer[0])}")
         if learn_dict == learnEnglish_b1 or learn_dict == learnEnglish_b2:
             await message.channel.send(f"Sorry time is out. Translation is: {''.join(correct_answer[0])}")
     finally:
