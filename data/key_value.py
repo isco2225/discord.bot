@@ -884,78 +884,82 @@ learnEnglish_b2 = {
     ],
 
     'I enjoy working collaboratively with others':[
-     'Diğerleriyle işbirliği yapmaktan keyif alıyorum.'
-     'Takım çalışmaları, farklı bakış açılarını bir araya getirerek daha yaratıcı çözümler bulmama yardımcı olur.'
-     'İş arkadaşlarımla düzenli olarak fikir alışverişi yapmak, profesyonel gelişimime katkı sağlar.'
-     'Proje gruplarında yer almak, sorumluluk paylaşımı ve işbirliği becerilerimi güçlendirir.'
+     'Diğerleriyle işbirliği yapmaktan keyif alıyorum.',
+     'Takım çalışmaları, farklı bakış açılarını bir araya getirerek daha yaratıcı çözümler bulmama yardımcı olur.',
+     'İş arkadaşlarımla düzenli olarak fikir alışverişi yapmak, profesyonel gelişimime katkı sağlar.',
+     'Proje gruplarında yer almak, sorumluluk paylaşımı ve işbirliği becerilerimi güçlendirir.',
      'Ortak projelerde yer almak, ekip ruhunu oluşturarak başarıya ulaşmayı destekler.'
     ],
 
     'I am passionate about promoting diversity and inclusion':[
-    'Çeşitliliği ve dahil ediciliği teşvik etmek konusunda tutkulu biriyim.'
-    'Çeşitli perspektifleri anlamak, iş ortamında daha zengin bir kültür oluşturmama yardımcı olur.'
-    'Eşitlik ve adaleti desteklemek, toplumsal değişime katkı sağlamama yardımcı olabilir.'
+    'Çeşitliliği ve dahil ediciliği teşvik etmek konusunda tutkulu biriyim.',
+    'Çeşitli perspektifleri anlamak, iş ortamında daha zengin bir kültür oluşturmama yardımcı olur.',
+    'Eşitlik ve adaleti desteklemek, toplumsal değişime katkı sağlamama yardımcı olabilir.',
     'Çeşitli eğitim programlarına katılmak, farkındalığımı artırarak daha etkili bir lider olmama yardımcı olur.'
-     'İş yerinde herkesin duyulduğunu hissettiği bir ortamın oluşturulması, iş performansını artırır.'],
+     'İş yerinde herkesin duyulduğunu hissettiği bir ortamın oluşturulması, iş performansını artırır.'
+    ],
 
     'I enjoy learning about new technologies':[
-     'Yeni teknolojiler hakkında bilgi edinmekten keyif alıyorum.'
-     'Gelişen dijital dünyayı takip etmek, iş süreçlerini optimize etme becerilerimi artırır.'
-     'Teknolojik yeniliklere adapte olmak, rekabet avantajı elde etmeme yardımcı olur.'
-     'Online teknoloji forumlarına katılmak, sektördeki en son gelişmeleri öğrenmeme yardımcı olur.'
-     'Yeni uygulamalar ve yazılımlar keşfetmek, iş verimliliğimi artırır.'],
+     'Yeni teknolojiler hakkında bilgi edinmekten keyif alıyorum.',
+     'Gelişen dijital dünyayı takip etmek, iş süreçlerini optimize etme becerilerimi artırır.',
+     'Teknolojik yeniliklere adapte olmak, rekabet avantajı elde etmeme yardımcı olur.',
+     'Online teknoloji forumlarına katılmak, sektördeki en son gelişmeleri öğrenmeme yardımcı olur.',
+     'Yeni uygulamalar ve yazılımlar keşfetmek, iş verimliliğimi artırır.'
+    ],
 
     'I believe in fostering a positive work environment':[
-     'Pozitif bir çalışma ortamını desteklemenin önemine inanıyorum.'
-     'İş arkadaşlarına destek olmak, ekip morale olumlu bir etki yapar.'
-     'Takım içinde iletişimi güçlendirmek, projelerin daha verimli bir şekilde ilerlemesine katkı sağlar.'
-     'Çalışanların geri bildirimlerini dikkate almak, şirket kültürünü iyileştirmeme yardımcı olur.'
-     'Çalışma arkadaşları arasında dayanışmayı teşvik etmek, iş tatminini artırır.'],
+     'Pozitif bir çalışma ortamını desteklemenin önemine inanıyorum.',
+     'İş arkadaşlarına destek olmak, ekip morale olumlu bir etki yapar.',
+     'Takım içinde iletişimi güçlendirmek, projelerin daha verimli bir şekilde ilerlemesine katkı sağlar.',
+     'Çalışanların geri bildirimlerini dikkate almak, şirket kültürünü iyileştirmeme yardımcı olur.',
+     'Çalışma arkadaşları arasında dayanışmayı teşvik etmek, iş tatminini artırır.'
+    ],
 
-    'I enjoy participating in community service activities':[
-     'Toplum hizmeti etkinliklerine katılmaktan keyif alıyorum.'
-     'Gönüllü projelere dahil olmak, sosyal sorumluluk duygumu güçlendirir.'
-     'Topluluk yardımı etkinliklerine katılmak, çevremdeki insanlara yardım etmenin memnuniyetini yaşamama yardımcı olur.'
+    'I enjoy participating in community service activities' :[
+     'Toplum hizmeti etkinliklerine katılmaktan keyif alıyorum.',
+     'Gönüllü projelere dahil olmak, sosyal sorumluluk duygumu güçlendirir.',
+     'Topluluk yardımı etkinliklerine katılmak, çevremdeki insanlara yardım etmenin memnuniyetini yaşamama yardımcı olur.',
      'Sosyal projelerde yer almak, toplumda olumlu değişikliklere katkı sağlamama yardımcı olur.'
-     'Gönüllü çalışmalara katılmak, kişisel büyüme ve empati geliştirmeme olanak tanır.'],
+     'Gönüllü çalışmalara katılmak, kişisel büyüme ve empati geliştirmeme olanak tanır.'
+    ],
 
     'I value effective communication skills':[
-     'Etkili iletişim becerilerini önemsiyorum.'
-     'Açık ve net iletişim, iş süreçlerini düzenlememe ve sorunları daha hızlı çözmeme yardımcı olur.'
-     'İş arkadaşlarıyla etkili iletişim kurmak, projelerin daha koordineli bir şekilde ilerlemesine katkı sağlar.'
-     'Sunum becerilerimi geliştirmek, fikirleri etkili bir şekilde aktarmama yardımcı olur.'
+     'Etkili iletişim becerilerini önemsiyorum.',
+     'Açık ve net iletişim, iş süreçlerini düzenlememe ve sorunları daha hızlı çözmeme yardımcı olur.',
+     'İş arkadaşlarıyla etkili iletişim kurmak, projelerin daha koordineli bir şekilde ilerlemesine katkı sağlar.',
+     'Sunum becerilerimi geliştirmek, fikirleri etkili bir şekilde aktarmama yardımcı olur.',
      'Empati becerilerini kullanarak, ekip içinde daha iyi bir iletişim kurabilirim.'
     ],
 
     'I am interested in exploring different cuisines':[
-     'Farklı mutfakları keşfetmeye ilgiliyim.'
-     'Yerel yemek festivallerine katılmak, dünya çapındaki lezzetleri deneyimleme şansı tanır.'
-     'Farklı kültürlerin yemek alışkanlıklarını incelemek, kültürel çeşitliliği anlamama yardımcı olur.'
-     'Evde yeni tarifler denemek, yaratıcı yemekler yapmama olanak sağlar.'
+     'Farklı mutfakları keşfetmeye ilgiliyim.',
+     'Yerel yemek festivallerine katılmak, dünya çapındaki lezzetleri deneyimleme şansı tanır.',
+     'Farklı kültürlerin yemek alışkanlıklarını incelemek, kültürel çeşitliliği anlamama yardımcı olur.',
+     'Evde yeni tarifler denemek, yaratıcı yemekler yapmama olanak sağlar.',
      'Dünya mutfaklarından öğrenilenleri kendi yemeklerime uyarlamak, kişisel becerilerimi artırır.'
     ],
 
     'I believe in setting achievable goals':[
-     'Ulaşılabilir hedefler belirlemenin önemine inanıyorum.'
-     'Kısa vadeli ve uzun vadeli hedefler, motivasyonumu artırarak başarıya ulaşmama yardımcı olur.'
-     'Hedeflere ulaşmak için plan yapmak, organizasyon becerilerimi güçlendirir.'
-     'İlerleme kaydedilen hedefleri kutlamak, motivasyonu yüksek tutmama yardımcı olur.'
+     'Ulaşılabilir hedefler belirlemenin önemine inanıyorum.',
+     'Kısa vadeli ve uzun vadeli hedefler, motivasyonumu artırarak başarıya ulaşmama yardımcı olur.',
+     'Hedeflere ulaşmak için plan yapmak, organizasyon becerilerimi güçlendirir.',
+     'İlerleme kaydedilen hedefleri kutlamak, motivasyonu yüksek tutmama yardımcı olur.',
      'Hedeflerime adım adım ilerlemek, kişisel başarılarımı artırır.'
     ],
 
     'I enjoy attending live performances':[
-     'Canlı performanslara katılmaktan keyif alıyorum.'
-     'Tiyatro oyunları ve konserlere gitmek, sanatsal deneyimleri yaşamama olanak tanır.'
-     'Sahne sanatlarına olan ilgim, kültürel etkinliklere katılımımı artırır.'
-     'Canlı performansları izlemek, sanatçıların özgün yeteneklerini takdir etmeme yardımcı olur.'
+     'Canlı performanslara katılmaktan keyif alıyorum.',
+     'Tiyatro oyunları ve konserlere gitmek, sanatsal deneyimleri yaşamama olanak tanır.',
+     'Sahne sanatlarına olan ilgim, kültürel etkinliklere katılımımı artırır.',
+     'Canlı performansları izlemek, sanatçıların özgün yeteneklerini takdir etmeme yardımcı olur.',
      'Farklı türlerdeki performansları deneyimlemek, sanat dünyasındaki çeşitliliği keşfetmeme yardımcı olur.'
     ],
 
     'I value time management skills':[
-     'Zaman yönetimi becerilerini önemsiyorum.'
-     'İş görevlerimi düzenli olarak planlamak, verimliliğimi artırır.'
-     'Öncelikli görevleri belirlemek, iş performansımı optimize etmeme yardımcı olur.'
-     'Zamanı etkili bir şekilde kullanmak, kişisel ve profesyonel yaşam dengesini sürdürmeme yardımcı olur.'
+     'Zaman yönetimi becerilerini önemsiyorum.',
+     'İş görevlerimi düzenli olarak planlamak, verimliliğimi artırır.',
+     'Öncelikli görevleri belirlemek, iş performansımı optimize etmeme yardımcı olur.',
+     'Zamanı etkili bir şekilde kullanmak, kişisel ve profesyonel yaşam dengesini sürdürmeme yardımcı olur.',
      'Zaman yönetimi becerilerimi geliştirmek, stresle daha etkili bir şekilde başa çıkmama yardımcı olur.'
     ],
 
