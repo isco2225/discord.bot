@@ -10,6 +10,10 @@ class UserCommands(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
+    @commands.Cog.listener()
+    async def on_ready(self):
+        print('User Commands ready')
+
     @commands.command()
     async def on_member_join(self, member):
         channel = discord.utils.get(member.guild.channels, name="genel")

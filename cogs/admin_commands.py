@@ -2,10 +2,15 @@ from discord.ext import commands
 import discord
 
 
+
 class AdminCommands(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
         self.activities={}
+
+    @commands.Cog.listener()
+    async def on_ready(self):
+        print('Admin Commands ready')
 
     @commands.command()
     async def change_status(self, ctx, activity, *, text):
@@ -34,11 +39,6 @@ class AdminCommands(commands.Cog):
             await ctx.channel.purge(limit=amount)
         else:
             await ctx.channel.send(f"Bu Yetkiye Sahip Değilsin..{ctx.author.mention}")
-
-    @commands.command()
-    async def ping(self, ctx):
-        bot_latency = round(self.bot.latency * 1000)
-        await ctx.send(f"pingim: {bot_latency} ms")
 
 
 async def setup(bot):

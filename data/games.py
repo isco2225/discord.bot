@@ -1,0 +1,1 @@
+toss_up_list = ["Yazı","Tura"]
